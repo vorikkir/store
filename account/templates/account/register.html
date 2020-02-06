@@ -2,12 +2,16 @@
 
 
 {% block title %}
-    Create an account
+    Регистрация
+{% endblock %}
+
+{% block name %}
+    Регистрация
 {% endblock %}
 
 {% block content %}
-    <h1>Create an account</h1>
-    <p>Please, sign up using the following form:</p>
+    <h1>Регистрация аккаунта на сайте</h1>
+    <p>Пожалуйста, зарегистрируйтесь, используя следующую форму:</p>
         <form action="." method="post">
         {{ user_form.as_p }}
         {% csrf_token %}

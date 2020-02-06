@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8bd75fd0-bb95-472d-965f-9b3b0788981a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/templates/account/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/templates/account/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/logged_out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +60,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IT-academy\Project_django\store\account\templates\registration" />
+      <recent name="E:\IT-academy\Project_django\store\account\templates" />
       <recent name="E:\IT-academy\Project_django\store\account\templates\account" />
       <recent name="E:\IT-academy\Project_django\store\templates" />
       <recent name="E:\IT-academy\Project_django\store" />
@@ -107,7 +116,7 @@
       <updated>1580801027558</updated>
       <workItem from="1580801055416" duration="19183000" />
       <workItem from="1580886455590" duration="6100000" />
-      <workItem from="1580986573563" duration="640000" />
+      <workItem from="1580986573563" duration="4540000" />
     </task>
     <servers />
   </component>
@@ -119,6 +128,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1003" y="213" key="#Notifications/0.40.1920.1040@0.40.1920.1040" timestamp="1580893743066" />
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580989275635">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1580989275635" />
     <state x="1191" y="310" key="FileChooserDialogImpl" timestamp="1580986633172">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

@@ -291,12 +291,20 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title">Вход</h2>
-                                <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="index">Главная</a>
-                                  <span class="brd-separetor">/</span>
-                                  <span class="breadcrumb-item active">Вход</span>
-                                </nav>
+                                <h2 class="bradcaump-title">
+                                    {% block name %}
+
+                                    {% endblock %}
+                                </h2>
+{#                                <nav class="bradcaump-inner">#}
+{#                                  <a class="breadcrumb-item" href="index">Главная</a>#}
+{#                                  <span class="brd-separetor">/</span>#}
+{#                                  <span class="breadcrumb-item active">#}
+{#                                      {% block name %}#}
+{##}
+{#                                        {% endblock %}#}
+{#                                  </span>#}
+{#                                </nav>#}
                             </div>
                         </div>
                     </div>
