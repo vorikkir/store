@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8bd75fd0-bb95-472d-965f-9b3b0788981a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/logged_out.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +26,14 @@
     <expand />
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -45,20 +42,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XKi8YdilKh2iG6XYHta2SEJW7k" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../online_store" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IT-academy\Project_django\store\basket" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IT-academy\Project_django\store\account\templates\registration" />
       <recent name="E:\IT-academy\Project_django\store\account\templates" />
@@ -116,7 +120,13 @@
       <updated>1580801027558</updated>
       <workItem from="1580801055416" duration="19183000" />
       <workItem from="1580886455590" duration="6100000" />
-      <workItem from="1580986573563" duration="4540000" />
+      <workItem from="1580986573563" duration="10204000" />
+      <workItem from="1581006588757" duration="4151000" />
+      <workItem from="1581018187998" duration="2548000" />
+      <workItem from="1581061260850" duration="6985000" />
+      <workItem from="1581147129786" duration="53000" />
+      <workItem from="1581147256690" duration="1810000" />
+      <workItem from="1581321838415" duration="5418000" />
     </task>
     <servers />
   </component>
@@ -132,10 +142,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1580989275635" />
-    <state x="1191" y="310" key="FileChooserDialogImpl" timestamp="1580986633172">
+    <state x="1191" y="310" key="FileChooserDialogImpl" timestamp="1581324487197">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="1191" y="310" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1580986633172" />
+    <state x="1191" y="310" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1581324487197" />
     <state x="912" y="197" key="SettingsEditor" timestamp="1580893588133">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -144,5 +154,13 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1003" y="288" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1580893517758" />
+    <state x="592" y="105" width="736" height="909" key="find.popup" timestamp="1581147398752">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="592" y="105" width="736" height="909" key="find.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1581147398752" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1581147470701">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1581147470701" />
   </component>
 </project>
