@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8bd75fd0-bb95-472d-965f-9b3b0788981a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/2020/02/06/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XKi8YdilKh2iG6XYHta2SEJW7k" />
@@ -53,20 +61,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../online_store" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DjangobyExample" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IT-academy\Project_django\store\basket" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IT-academy\Project_django\store\account\templates\registration" />
       <recent name="E:\IT-academy\Project_django\store\account\templates" />
       <recent name="E:\IT-academy\Project_django\store\account\templates\account" />
       <recent name="E:\IT-academy\Project_django\store\templates" />
       <recent name="E:\IT-academy\Project_django\store" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IT-academy\Project_django\store\basket" />
     </key>
   </component>
   <component name="RunManager">
@@ -125,6 +133,13 @@
       <workItem from="1581147129786" duration="53000" />
       <workItem from="1581147256690" duration="1810000" />
       <workItem from="1581321838415" duration="5957000" />
+      <workItem from="1582031423985" duration="24000" />
+      <workItem from="1582031510374" duration="6000" />
+      <workItem from="1582031535638" duration="19000" />
+      <workItem from="1582031584141" duration="153000" />
+      <workItem from="1582031745559" duration="10000" />
+      <workItem from="1582031771780" duration="139000" />
+      <workItem from="1582031918799" duration="1337000" />
     </task>
     <servers />
   </component>
@@ -136,14 +151,18 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="1003" y="213" key="#Notifications/0.40.1920.1040@0.40.1920.1040" timestamp="1580893743066" />
+    <state x="890" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582031958578">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="890" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1582031958578" />
     <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580989275635">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1580989275635" />
-    <state x="1191" y="310" key="FileChooserDialogImpl" timestamp="1581324487197">
+    <state x="1191" y="310" key="FileChooserDialogImpl" timestamp="1582032111455">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="1191" y="310" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1581324487197" />
+    <state x="1191" y="310" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1582032111455" />
     <state x="912" y="197" key="SettingsEditor" timestamp="1580893588133">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
