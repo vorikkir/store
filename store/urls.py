@@ -20,11 +20,13 @@ from django.conf.urls.static import static
 from account import views
 
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('account/', include('account.urls')),
+    path('cart/', include('cart.urls', namespace='cart')),
     path('', views.index, name='index'),
-    path('products/', include('shop.urls', namespace='shop')),
+    path('shop/', include('shop.urls', namespace='shop')),
 
 ]
 

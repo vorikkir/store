@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8bd75fd0-bb95-472d-965f-9b3b0788981a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/templates/account/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="CSS File" />
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -139,7 +146,11 @@
       <workItem from="1582031584141" duration="153000" />
       <workItem from="1582031745559" duration="10000" />
       <workItem from="1582031771780" duration="139000" />
-      <workItem from="1582031918799" duration="1337000" />
+      <workItem from="1582031918799" duration="1790000" />
+      <workItem from="1582033720411" duration="6389000" />
+      <workItem from="1582049144635" duration="3337000" />
+      <workItem from="1582354228393" duration="66000" />
+      <workItem from="1582354306046" duration="13174000" />
     </task>
     <servers />
   </component>
@@ -159,10 +170,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1580989275635" />
-    <state x="1191" y="310" key="FileChooserDialogImpl" timestamp="1582032111455">
+    <state x="1191" y="310" key="FileChooserDialogImpl" timestamp="1582364157874">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="1191" y="310" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1582032111455" />
+    <state x="1191" y="310" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1582364157874" />
     <state x="912" y="197" key="SettingsEditor" timestamp="1580893588133">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -175,6 +186,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="592" y="105" width="736" height="909" key="find.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1581147398752" />
+    <state x="1114" y="265" key="git4idea.branch.GitSmartOperationDialog" timestamp="1582033707556">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="1114" y="265" key="git4idea.branch.GitSmartOperationDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1582033707556" />
     <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1581147470701">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

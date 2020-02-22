@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Tmart-Minimalist eCommerce HTML5 Template</title>
+    <title>T-mobile shop</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -60,7 +60,7 @@
                     <div class="row">
                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="">
                                     <img src="{% static 'images/logo/logo.png' %}" alt="logo">
                                 </a>
                             </div>
@@ -69,18 +69,18 @@
                         <div class="col-md-8 col-lg-8 col-sm-6 col-xs-6">
                             <nav class="mainmenu__nav hidden-xs hidden-sm">
                                 <ul class="main__menu">
-                                    <li class="drop"><a href="index">Главная</a>
+                                    <li class="drop"><a href="">Главная</a>
 
                                     </li>
-{#                                    <li class="drop"><a href="shop.html">Товары</a>#}
-{#                                        <ul class="dropdown">#}
-{#                                            <li><a href="portfolio-gutter-box-3.html">Телефоны</a></li>#}
-{#                                            <li><a href="portfolio-gutter-full-wide-4.html">Ноутбуки</a></li>#}
-{##}
-{#                                        </ul>#}
-{#                                    </li>#}
-                                    <li class="drop"><a href="blog">Новости</a>
+                                    <li class="drop"><a href="shop">Товары</a>
+                                        <ul class="dropdown">
+                                            <li><a href="shop/telefon">Телефоны</a></li>
+                                            <li><a href="shop/noutbuk">Ноутбуки</a></li>
+
+                                        </ul>
                                     </li>
+{#                                    <li class="drop"><a href="blog">Новости</a>#}
+{#                                    </li>#}
                                     <li class="drop"><a href="blog">Обзоры</a>
 
                                     </li>
@@ -89,16 +89,16 @@
                                     <li class="drop"><a href="#">Гарантия</a>
                                     </li>
 {#                                    <li><a href="contact.html">Контакты</a></li>#}
-                                    <li><a href="login">Регистрация</a></li>
+                                    <li><a href="account/register">Регистрация</a></li>
                                 </ul>
                             </nav>
                             <div class="mobile-menu clearfix visible-xs visible-sm">
                                 <nav id="mobile_dropdown">
                                     <ul>
-                                        <li><a href="index.html">Home</a>
+                                        <li><a href="">Home</a>
                                             <ul>
-                                                <li><a href="index.html">Home 1</a></li>
-                                                <li><a href="index-2.html">Home 2</a></li>
+                                                <li><a href="">Home 1</a></li>
+                                                <li><a href="">Home 2</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">portfolio</a>
@@ -185,7 +185,7 @@
                     </div>
                     <div class="off__contact">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="">
                                 <img src="../../static/images/logo/logo.png" alt="logo">
                             </a>
                         </div>
@@ -327,11 +327,11 @@
                     <div class="col-md-3 col-lg-3 col-sm-4 col-xs-12 float-right-style">
                         <div class="categories-menu mrg-xs">
                             <div class="category-heading">
-                               <h3> Browse Categories</h3>
+                               <h3>Каталог</h3>
                             </div>
                             <div class="category-menu-list">
                                 <ul>
-                                    <li><a href="#"> Телефоны </a>
+                                    <li><a href="shop/telefon"> Телефоны </a>
 {#                                        <div class="category-menu-dropdown">#}
 {#                                            <div class="category-menu-dropdown-left">#}
 {#                                                <div class="category-part-1 category-common">#}
@@ -366,7 +366,7 @@
 {#                                            </div>#}
 {#                                        </div>#}
                                     </li>
-                                    <li><a href="#">Ноутбуки</a>
+                                    <li><a href="shop/noutbuk">Ноутбуки</a>
 {#                                        <div class="category-menu-dropdown">#}
 {#                                            <div class="category-menu-dropdown-left">#}
 {#                                                <div class="category-part-1 category-common">#}
@@ -1762,7 +1762,7 @@
                         <div class="col-md-3 col-lg-3 col-sm-6">
                             <div class="ft__widget">
                                 <div class="ft__logo">
-                                    <a href="index.html">
+                                    <a href="">
                                         <img src="{% static 'images/logo/logo.png' %}" alt="footer logo">
                                     </a>
                                 </div>
