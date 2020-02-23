@@ -1,11 +1,12 @@
-{% extends "base.html" %}
+{% extends "shop/base.html" %}
 
 {% block title %}
     Выход
 {% endblock %}
 
 {% block content %}
-    <h1>Вы успешно вышли из системы.</h1>
-    <p>Вы можете снова войти >>> <a href="{% url "login" %}">Войти на сайт</a>.</p>
-
+    <div style="display: block; margin-top: 0px; margin-bottom: 80px;margin-left: 350px;width: 31%">
+        <h1 style="text-align: center; margin-bottom: 30px">Вы успешно вышли из системы.</h1>
+        <p>Вы можете снова войти >>> <a href="{% url "login" %}">Войти на сайт</a>.</p>
+    </div>
 {% endblock %}

@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "shop/base.html" %}
 
 
 {% block title %}
@@ -10,12 +10,14 @@
 {% endblock %}
 
 {% block content %}
-    <h1>Регистрация аккаунта на сайте</h1>
-    <p>Пожалуйста, зарегистрируйтесь, используя следующую форму:</p>
-        <form action="." method="post">
-        {{ user_form.as_p }}
-        {% csrf_token %}
-{#        <p><input type="submit" value="Create my account"></p>#}
-        <button class="btn-block btn-sm" type="submit" style="margin-top: 10px;">Create my account</button>
-        </form>
+    <div style="display: block ;margin-top: 0px; margin-bottom: 80px; margin-left: 300px; width: 540px;">
+        <h1 style="margin-bottom: 30px; text-align: center">Регистрация аккаунта на сайте</h1>
+        <p>Пожалуйста, зарегистрируйтесь, используя следующую форму:</p>
+            <form action="." method="post">
+            {{ user_form.as_p }}
+            {% csrf_token %}
+    {#        <p><input type="submit" value="Create my account"></p>#}
+            <button class="btn-block btn-sm" type="submit" style="margin-top: 10px;">Создать аккаунт</button>
+            </form>
+    </div>
 {% endblock %}

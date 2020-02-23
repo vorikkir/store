@@ -6,7 +6,8 @@
 {% endblock %}
 
 {% block content %}
-  <div id="sidebar">
+    <div style="margin-bottom: 140px; display: flex">
+         <div id="sidebar">
     <h2>Категории</h2>
     <ul>
 {#      <li {% if not category %}class="selected"{% endif %}>#}
@@ -31,4 +32,5 @@
         </div>
     {% endfor %}
   </div>
+    </div>
 {% endblock %}

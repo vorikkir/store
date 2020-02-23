@@ -152,6 +152,11 @@ ul.errorlist {
     width: 90%;
     margin-left: 70px;
 }
+
+#content .created{
+    display: inline;
+}
+
 #sidebar {
     width:220px;
     padding:30px 20px 0 0;
