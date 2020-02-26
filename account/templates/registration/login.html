@@ -16,15 +16,15 @@
                 Ваше имя пользователя и пароль не совпадают. Пожалуйста, попробуйте еще раз.
             </p>
         {% else %}
-    {#        <p>Пожалуйста, используйте следующую форму для входа в систему:</p>#}
+
         {% endif %}
-    {#    <div class="login-form">#}
+
             <form action="{% url 'login' %}" method="post" class="login">
                 {% csrf_token %}
                 {{ form.as_p }}
 
                 <input type="hidden" name="next" value="{{ next }}" />
-    {#            <p><input type="submit" value="Log-in"></p>#}
+
                 <button class="btn-block btn-sm" type="submit" style="margin-top: 10px;">Войти</button>
             </form>
     </div>
