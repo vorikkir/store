@@ -1,44 +1,3 @@
-{#{% load static %}#}
-{#<!DOCTYPE html>#}
-{#<html>#}
-{#<head>#}
-{#  <meta charset="utf-8" />#}
-{#  <title>{% block title %}My shop{% endblock %}</title>#}
-{#  <link href="{% static "css/base.css" %}" rel="stylesheet">#}
-{#</head>#}
-{#<body>#}
-{#  <div id="header">#}
-{#    <a href="/" class="logo">My shop</a>#}
-{#  </div>#}
-{#  <div id="subheader">#}
-{#    <div class="cart">#}
-{#      {% with total_items=cart|length %}#}
-{#          {% if cart|length > 0 %}#}
-{#            Your cart:#}
-{#            <a href="{% url "cart:cart_detail" %}">#}
-{#              {{ total_items }} item{{ total_items|pluralize }},#}
-{#              ${{ cart.get_total_price }}#}
-{#            </a>#}
-{#          {% else %}#}
-{#            Your cart is empty.#}
-{#          {% endif %}#}
-{#        {% endwith %}#}
-{#    </div>#}
-{#  </div>#}
-{#  <div id="content">#}
-{#    {% block content %}#}
-{#    {% endblock %}#}
-{#  </div>#}
-{#</body>#}
-{#</html>#}
-
-
-
-
-
-
-
-
 {% load static %}
 <html class="no-js" lang="en">
 <head>
@@ -104,7 +63,7 @@
                     <div class="row">
                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div class="logo">
-                                <a href="index">
+                                <a href="{% url 'index' %}">
                                     <img src="{% static 'images/logo/logo.png' %}" alt="logo">
                                 </a>
                             </div>
@@ -113,13 +72,13 @@
                         <div class="col-md-8 col-lg-8 col-sm-6 col-xs-6">
                             <nav class="mainmenu__nav hidden-xs hidden-sm">
                                 <ul class="main__menu">
-                                    <li class="drop"><a href="">Главная</a>
+                                    <li class="drop"><a href="{% url 'index' %}">Главная</a>
 
                                     </li>
-                                    <li class="drop"><a href="">Товары</a>
+                                    <li class="drop"><a href="{% url 'shop:product_list' %}">Товары</a>
                                         <ul class="dropdown">
-                                            <li><a href="telefon">Телефоны</a></li>
-                                            <li><a href="noutbuk">Ноутбуки</a></li>
+                                            <li><a href="{% url 'shop:product_list' %}telefon">Телефоны</a></li>
+                                            <li><a href="{% url 'shop:product_list' %}noutbuk">Ноутбуки</a></li>
                                         </ul>
                                     </li>
                                     <li class="drop"><a href="#">Обзоры</a>
@@ -127,17 +86,18 @@
                                     </li>
                                     <li class="drop"><a href="#">Доставка</a>
                                     </li>
-                                    <li class="drop"><a href="#">Гарантия</a>
-                                    <li><a href="login">Регистрация</a></li>
+{#                                    <li class="drop"><a href="guarantee">Гарантия</a>#}
+                                    <li class="drop"><a href="#">Гарантия</a></li>
+                                    <li><a href="{% url 'register' %}">Регистрация</a></li>
                                 </ul>
                             </nav>
                             <div class="mobile-menu clearfix visible-xs visible-sm">
                                 <nav id="mobile_dropdown">
                                     <ul>
-                                        <li><a href="index">Home</a>
+                                        <li><a href="{% url 'index' %}">Home</a>
                                             <ul>
-                                                <li><a href="index">Home 1</a></li>
-                                                <li><a href="index-2.html">Home 2</a></li>
+                                                <li><a href="{% url 'index' %}">Home 1</a></li>
+                                                <li><a href="{% url 'index' %}">Home 2</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">portfolio</a>
@@ -180,10 +140,10 @@
                         <!-- End MAinmenu Ares -->
                         <div class="col-md-2 col-sm-4 col-xs-3">
                             <ul class="menu-extra">
-                                <li class="search search__open hidden-xs"><span class="ti-search"></span></li>
-                                <li><a href="login"><span class="ti-user"></span></a></li>
-                                <li class="cart__menu"><span class="ti-shopping-cart"></span></li>
-                                <li class="toggle__menu hidden-xs hidden-sm"><span class="ti-menu"></span></li>
+{#                                <li class="search search__open hidden-xs"><span class="ti-search"></span></li>#}
+                                <li><a href="{% url 'login' %}"><span class="ti-user"></span></a></li>
+                                <li><a href="{% url 'cart:cart_detail' %}"><span class="ti-shopping-cart"></span></a></li>
+{#                                <li class="toggle__menu hidden-xs hidden-sm"><span class="ti-menu"></span></li>#}
                             </ul>
                         </div>
                     </div>
@@ -224,7 +184,7 @@
                     </div>
                     <div class="off__contact">
                         <div class="logo">
-                            <a href="index">
+                            <a href="{% url 'index' %}">
                                 <img src="{% static 'images/logo/logo.png' %}" alt="logo">
                             </a>
                         </div>
@@ -442,7 +402,7 @@
                         <div class="col-md-3 col-lg-3 col-sm-6">
                             <div class="ft__widget">
                                 <div class="ft__logo">
-                                    <a href="index">
+                                    <a href="{% url 'index' %}">
                                         <img src="{% static 'images/logo/logo.png' %}" alt="footer logo">
                                     </a>
                                 </div>
@@ -482,8 +442,8 @@
                             <div class="ft__widget">
                                 <h2 class="ft__title">Информация</h2>
                                 <ul class="footer-categories">
-                                    <li><a href="about.html">О компании</a></li>
-                                    <li><a href="contact.html">Сервисные центры</a></li>
+                                    <li><a href="#">О компании</a></li>
+                                    <li><a href="#">Сервисные центры</a></li>
                                     <li><a href="#">Замена и возврат</a></li>
                                     <li><a href="#">Карта "Халва"</a></li>
 
