@@ -27,7 +27,6 @@ class Cart(object):
 
 
     def __len__(self):
-        """Возвращает общее количество товаров в корзине"""
         return sum(item['quantity'] for item in self.cart.values())
 
 
@@ -59,6 +58,5 @@ class Cart(object):
 
 
     def clear(self):
-        """Очистка корзины"""
         del self.session[settings.CART_SESSION_ID]
         self.save()

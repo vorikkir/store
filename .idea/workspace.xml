@@ -3,18 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8bd75fd0-bb95-472d-965f-9b3b0788981a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/account/register_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/register_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/registration/logged_out.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/templates/account/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/account/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart/templates/cart/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/templates/orders/order/created.html" beforeDir="false" afterPath="$PROJECT_DIR$/orders/templates/orders/order/created.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop/templates/shop/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/templates/shop/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop/templates/shop/product/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,20 +64,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DjangobyExample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IT-academy\Project_django\store\account\templates\registration" />
-      <recent name="E:\IT-academy\Project_django\store\account\templates" />
-      <recent name="E:\IT-academy\Project_django\store\account\templates\account" />
-      <recent name="E:\IT-academy\Project_django\store\templates" />
-      <recent name="E:\IT-academy\Project_django\store" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IT-academy\Project_django\store\basket" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IT-academy\Project_django\store\shop\templates\shop" />
+      <recent name="E:\IT-academy\Project_django\store\shop\templates\shop\product" />
+      <recent name="E:\IT-academy\Project_django\store\shop\templates\shop\content" />
+      <recent name="E:\IT-academy\Project_django\store\account\templates\account" />
+      <recent name="E:\IT-academy\Project_django\store\account\templates\registration" />
     </key>
   </component>
   <component name="RunManager">
@@ -153,6 +148,9 @@
       <workItem from="1582354228393" duration="66000" />
       <workItem from="1582354306046" duration="22312000" />
       <workItem from="1582449123908" duration="10575000" />
+      <workItem from="1582617704573" duration="639000" />
+      <workItem from="1582643090114" duration="14375000" />
+      <workItem from="1582700109434" duration="1143000" />
     </task>
     <servers />
   </component>
@@ -168,14 +166,14 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="890" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1582031958578" />
-    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580989275635">
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582658391948">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1580989275635" />
-    <state x="1191" y="310" key="FileChooserDialogImpl" timestamp="1582364157874">
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1582658391948" />
+    <state x="1191" y="310" key="FileChooserDialogImpl" timestamp="1582659692962">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="1191" y="310" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1582364157874" />
+    <state x="1191" y="310" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1582659692962" />
     <state x="912" y="197" key="SettingsEditor" timestamp="1580893588133">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
